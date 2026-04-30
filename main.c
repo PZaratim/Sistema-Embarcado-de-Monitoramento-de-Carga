@@ -221,7 +221,7 @@ void app_main(){
                     printf("[ATENCAO] | Carga: %3d%% | SUBINDO\n", load_total);
                 } 
                 else {
-                    printf("[ATENCAO] | Carga: %3d%% | DESCENDO\n", load_total);
+                    printf("[PERIGO] | Carga: %3d%% | DESCENDO\n", load_total);
                 }
 
                 ABC_atencao();
